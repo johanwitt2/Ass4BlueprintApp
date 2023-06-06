@@ -1,5 +1,5 @@
 import pyodbc
-from Ass4Class import *
+from Ass4Class import stored_query as sq
 
 print("What do you want to do? (A, B, C OR D)")
 print("A- diplay all, B- display growth, C- display by date or D- range of dates")
@@ -13,17 +13,17 @@ def connect_to_db():
 
 if (choice == 'A'):
 
-    print_all_records()
+    sq.print_all_records()
 
 elif (choice == 'B'):
 
-    print_positive_growth()
+    sq.print_positive_growth()
 
 elif (choice == 'C'):
 
-    record_by_date()
+    sq.record_by_date()
 
-else: count_companies_between_dates()
+else: sq.count_companies_between_dates()
 
 
 

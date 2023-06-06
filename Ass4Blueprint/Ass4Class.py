@@ -1,16 +1,16 @@
+class stored_query:
 
+    #def __init__():
+        #pass
 
-def __init__():
-    pass
+    def print_all_records():
+        print("all records printed")
 
-def print_all_records():
-    pass
+    def print_positive_growth():
+        print("positive growth")
 
-def print_positive_growth():
-    pass
+    def record_by_date():
+        print("by date")
 
-def record_by_date():
-    pass
-
-def count_companies_between_dates():
-    pass
+    def count_companies_between_dates():
+        print("between dates")
